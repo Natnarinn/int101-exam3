@@ -56,10 +56,14 @@ public class Person {
 //    [Person: CODE (FIRSTNAME LASTNAME) TYPE] where CODE, FIRSTNAME,
 //    LASTNAME, and TYPE are code, firstname, lastname, and type of the person.
 
+
+
+
     @Override
     public String toString() {
         return String.format(" [Person: %d (%s %s) %d]",code,firstname,lastname,type);
     }
+
 //    1.5) Override equals(Object obj) method, so that two person objects are equal
 //    when they have the same code.
 
